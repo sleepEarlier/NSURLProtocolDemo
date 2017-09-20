@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC973FF21F7218B400504590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC973FF11F7218B400504590 /* main.m */; };
+		DC973FF51F7218B400504590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC973FF41F7218B400504590 /* AppDelegate.m */; };
+		DC973FF81F7218B400504590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC973FF71F7218B400504590 /* ViewController.m */; };
+		DC973FFB1F7218B400504590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC973FF91F7218B400504590 /* Main.storyboard */; };
+		DC973FFD1F7218B400504590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC973FFC1F7218B400504590 /* Assets.xcassets */; };
+		DC9740001F7218B400504590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC973FFE1F7218B400504590 /* LaunchScreen.storyboard */; };
+		DC9740091F7218C400504590 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9740081F7218C400504590 /* MyURLProtocol.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC973FED1F7218B400504590 /* NSURLProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC973FF11F7218B400504590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC973FF31F7218B400504590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC973FF41F7218B400504590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC973FF61F7218B400504590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC973FF71F7218B400504590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC973FFA1F7218B400504590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC973FFC1F7218B400504590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC973FFF1F7218B400504590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9740011F7218B400504590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9740071F7218C400504590 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
+		DC9740081F7218C400504590 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC973FEA1F7218B400504590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC973FE41F7218B400504590 = {
+			isa = PBXGroup;
+			children = (
+				DC973FEF1F7218B400504590 /* NSURLProtocolDemo */,
+				DC973FEE1F7218B400504590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC973FEE1F7218B400504590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC973FED1F7218B400504590 /* NSURLProtocolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC973FEF1F7218B400504590 /* NSURLProtocolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC973FF31F7218B400504590 /* AppDelegate.h */,
+				DC973FF41F7218B400504590 /* AppDelegate.m */,
+				DC973FF61F7218B400504590 /* ViewController.h */,
+				DC973FF71F7218B400504590 /* ViewController.m */,
+				DC9740071F7218C400504590 /* MyURLProtocol.h */,
+				DC9740081F7218C400504590 /* MyURLProtocol.m */,
+				DC973FF91F7218B400504590 /* Main.storyboard */,
+				DC973FFC1F7218B400504590 /* Assets.xcassets */,
+				DC973FFE1F7218B400504590 /* LaunchScreen.storyboard */,
+				DC9740011F7218B400504590 /* Info.plist */,
+				DC973FF01F7218B400504590 /* Supporting Files */,
+			);
+			path = NSURLProtocolDemo;
+			sourceTree = "<group>";
+		};
+		DC973FF01F7218B400504590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC973FF11F7218B400504590 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC973FEC1F7218B400504590 /* NSURLProtocolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9740041F7218B400504590 /* Build configuration list for PBXNativeTarget "NSURLProtocolDemo" */;
+			buildPhases = (
+				DC973FE91F7218B400504590 /* Sources */,
+				DC973FEA1F7218B400504590 /* Frameworks */,
+				DC973FEB1F7218B400504590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSURLProtocolDemo;
+			productName = NSURLProtocolDemo;
+			productReference = DC973FED1F7218B400504590 /* NSURLProtocolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC973FE51F7218B400504590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KimiLin;
+				TargetAttributes = {
+					DC973FEC1F7218B400504590 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC973FE81F7218B400504590 /* Build configuration list for PBXProject "NSURLProtocolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC973FE41F7218B400504590;
+			productRefGroup = DC973FEE1F7218B400504590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC973FEC1F7218B400504590 /* NSURLProtocolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC973FEB1F7218B400504590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9740001F7218B400504590 /* LaunchScreen.storyboard in Resources */,
+				DC973FFD1F7218B400504590 /* Assets.xcassets in Resources */,
+				DC973FFB1F7218B400504590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC973FE91F7218B400504590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC973FF81F7218B400504590 /* ViewController.m in Sources */,
+				DC9740091F7218C400504590 /* MyURLProtocol.m in Sources */,
+				DC973FF51F7218B400504590 /* AppDelegate.m in Sources */,
+				DC973FF21F7218B400504590 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC973FF91F7218B400504590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC973FFA1F7218B400504590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC973FFE1F7218B400504590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC973FFF1F7218B400504590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9740021F7218B400504590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9740031F7218B400504590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9740051F7218B400504590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSURLProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KimiLin.NSURLProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC9740061F7218B400504590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSURLProtocolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KimiLin.NSURLProtocolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC973FE81F7218B400504590 /* Build configuration list for PBXProject "NSURLProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9740021F7218B400504590 /* Debug */,
+				DC9740031F7218B400504590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9740041F7218B400504590 /* Build configuration list for PBXNativeTarget "NSURLProtocolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9740051F7218B400504590 /* Debug */,
+				DC9740061F7218B400504590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC973FE51F7218B400504590 /* Project object */;
+}
